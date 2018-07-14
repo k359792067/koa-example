@@ -1,0 +1,26 @@
+{
+  "name": "koa-example",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development ./node_modules/.bin/nodemon ./bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kYe",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/cors": "^2.2.2",
+    "koa": "^2.5.2",
+    "koa-body": "^4.0.4",
+    "koa-jwt": "^3.3.2",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0",
+    "lodash": "^4.17.10",
+    "log4js": "^2.11.0"
+  },
+  "devDependencies": {
+    "cross-env": "^5.2.0",
+    "eslint": "^5.1.0",
+    "nodemon": "^1.18.1"
+  }
+}
